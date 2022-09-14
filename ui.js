@@ -12,10 +12,10 @@ class UI {
                         <a href="${user.html_url}" target="_blank" class="btn btn-primary btn-block mb-4">View Profile</a>
                     </div>
                     <div class="col-md-9">
-                        <span class="badge bg-primary">Public Repos: ${user.public_repos}</span>
-                        <span class="badge bg-secondary">Public Gists: ${user.public_gists}</span>
-                        <span class="badge bg-success">Follower: ${user.followers}</span>
-                        <span class="badge bg-primary">Following: ${user.following}</span>
+                        <span class="badge bg-primary m-1">Public Repos: ${user.public_repos}</span>
+                        <span class="badge bg-secondary m-1">Public Gists: ${user.public_gists}</span>
+                        <span class="badge bg-success m-1">Follower: ${user.followers}</span>
+                        <span class="badge bg-primary m-1">Following: ${user.following}</span>
                         <br><br>
                         <ul class="list-group">
                             <li class="list-group-item">Company: ${user.company}</li>
